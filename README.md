@@ -15,6 +15,8 @@ Based on my previous starter site, https://github.com/ekafyi/junglejs-storybook-
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fekafyi%2Fjunglejs-netlify-functions%2Ftree%2Fmaster) [![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ekafyi/junglejs-netlify-functions)
 
+Or [create a new repo](https://github.com/ekafyi/junglejs-netlify-functions/generate) with Github template.
+
 ## Installation
 
 ```bash
@@ -30,8 +32,6 @@ netlify dev
 # (Optional) Start Storybook server in a separate tab
 npm run storybook
 ```
-
-Or [create a new repo](https://github.com/ekafyi/junglejs-netlify-functions/generate) with Github template.
 
 Netlify dev server serves your JungleJS site on `localhost:3333`.
 
