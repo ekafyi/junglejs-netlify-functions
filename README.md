@@ -1,6 +1,6 @@
 # JungleJS + Netlify Functions starter site
 
-<p align="center"><img src="https://image.flaticon.com/icons/svg/2950/2950532.svg" width="120" height="120" alt="" /></p>
+<p align="center"><img src="https://image.flaticon.com/icons/svg/2950/2950532.svg" width="80" height="80" alt="" />&nbsp;&nbsp;<img src="https://seeklogo.com/images/N/netlify-logo-758722CDF4-seeklogo.com.png" width="80" height="80" alt="" style="margin-left:1rem"/></p>
 
 A starter site with:
 
