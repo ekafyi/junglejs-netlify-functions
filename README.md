@@ -9,8 +9,6 @@ A starter site with:
 - [Storybook](https://storybook.js.org) — UI development environment
 - [TailwindCSS](https://tailwindcss.com) — utility-first CSS framework
 
-Based on my previous starter site, https://github.com/ekafyi/junglejs-storybook-tailwind
-
 Introductory posts:
 - [Go serverless with this JungleJS + Netlify functions starter site](https://dev.to/ekafyi/go-serverless-with-this-junglejs-netlify-functions-starter-site-3bg0)
 - [Getting Started with Netlify Functions](https://dev.to/ekafyi/getting-started-with-netlify-functions-part-1-zero-config-setup-and-writing-our-first-functions-1i5b)
@@ -44,6 +42,8 @@ This starter comes with a sample function `hello.js`, which you can access on:
 - localhost:3333/.netlify/functions/hello?name=Eka (example with query parameter)
 
 If you start it, Storybook runs on `localhost:6006`.
+
+The Storybook and Tailwind setup is based on my previous starter site, https://github.com/ekafyi/junglejs-storybook-tailwind. Check out [the readme](https://github.com/ekafyi/junglejs-storybook-tailwind#directory-structure) for more details.
 
 ## Credits
 
