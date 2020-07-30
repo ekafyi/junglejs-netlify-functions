@@ -11,6 +11,10 @@ A starter site with:
 
 Based on my previous starter site, https://github.com/ekafyi/junglejs-storybook-tailwind
 
+Introductory posts:
+- [Go serverless with this JungleJS + Netlify functions starter site](https://dev.to/ekafyi/go-serverless-with-this-junglejs-netlify-functions-starter-site-3bg0)
+- [Getting Started with Netlify Functions](https://dev.to/ekafyi/getting-started-with-netlify-functions-part-1-zero-config-setup-and-writing-our-first-functions-1i5b)
+
 ## One-click deploy
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fekafyi%2Fjunglejs-netlify-functions%2Ftree%2Fmaster) [![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ekafyi/junglejs-netlify-functions)
@@ -26,18 +30,20 @@ cd junglejs-netlify-functions
 # Install dependencies
 npm install
 
-# Start Netlify dev
+# Start Netlify Dev server
 netlify dev
 
 # (Optional) Start Storybook server in a separate tab
 npm run storybook
 ```
 
-Netlify dev server serves your JungleJS site on `localhost:3333`.
+Netlify Dev serves your site on `localhost:3333`. Your functions run on `localhost:3333/.netlify/functions/{YOUR_FUNCTION_NAME}`. 
 
-Access your functions on `localhost:3333/.netlify/functions/{YOUR_FUNCTION_NAME}`.
+This starter comes with a sample function `hello.js`, which you can access on:
+- localhost:3333/.netlify/functions/hello
+- localhost:3333/.netlify/functions/hello?name=Eka (example with query parameter)
 
-Storybook runs on `localhost:6006`.
+If you start it, Storybook runs on `localhost:6006`.
 
 ## Credits
 
