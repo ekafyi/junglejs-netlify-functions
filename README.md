@@ -14,7 +14,7 @@ Introductory posts:
 - [Go serverless with this JungleJS + Netlify functions starter site](https://dev.to/ekafyi/go-serverless-with-this-junglejs-netlify-functions-starter-site-3bg0)
 - [Getting Started with Netlify Functions](https://dev.to/ekafyi/getting-started-with-netlify-functions-part-1-zero-config-setup-and-writing-our-first-functions-1i5b)
 
-## One-click deploy
+## Quick start
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fekafyi%2Fjunglejs-netlify-functions%2Ftree%2Fmaster) [![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ekafyi/junglejs-netlify-functions)
 
