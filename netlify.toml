@@ -1,0 +1,10 @@
+[dev]
+  command = "npm run start"
+  port = 3333
+  targetPort = 3000
+  framework = "#custom"
+
+[build]
+  command = "npm run build"
+  publish = "jungle/build"
+  functions = "functions"

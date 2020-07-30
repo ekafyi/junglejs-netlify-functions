@@ -1,0 +1,8 @@
+/node_modules/
+/jungle
+
+.DS_Store
+.env
+
+# Local Netlify folder
+.netlify
